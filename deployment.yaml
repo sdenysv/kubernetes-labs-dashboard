@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: dashboard
-          image: ghcr.io/skvortsovden/kubernetes-labs-dashboard:latest
+          image: ghcr.io/sdenysv/kubernetes-labs-dashboard:latest
           ports:
             - containerPort: 8080
           volumeMounts:
